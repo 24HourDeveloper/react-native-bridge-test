@@ -26,7 +26,7 @@ export default class App extends Component{
       return ( 
           <View style={styles.container}>
 
-          <Bulb style={{padding:20, width:"100%"}}/>
+          <Bulb style={{padding:20, width:"80%", height:50 }} isOn={true}/>
             {/* <Text style={styles.welcome}>Welcome to Light App!!</Text>
             <Text> Bulb is {this.state.isOn ? "ON": "OFF"}</Text>
               {!this.state.isOn ? <Button
